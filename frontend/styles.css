@@ -72,3 +72,19 @@ header{
 .farmer-list {
     margin-top: 20px;
 }
+.farmer-card{
+    border: 1px solid #0b0b0b;
+    padding: 40px;
+    cursor: pointer;
+    border-radius:8px;
+    margin-left:100px;
+    margin-right:200px;
+    margin-top:50px;
+    background-color:#c0f06e;
+}
+
+.contract-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
