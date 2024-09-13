@@ -53,3 +53,21 @@ header{
     flex: 1;
     /* padding: 20px; */
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+.contract-card {
+    border: 1px solid #0b0b0b;
+    padding: 40px;
+    cursor: pointer;
+    border-radius:8px;
+    margin-left:100px;
+    margin-right:200px;
+    margin-top:50px;
+
+}
+.farmer-list {
+    margin-top: 20px;
+}
