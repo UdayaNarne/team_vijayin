@@ -3,156 +3,156 @@
     {
         "S.no":"1",
         "name":"Vijay",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"2013 2344 5674",
         "Mobile Number":"9123297894",
         "Address":"Kadapa",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"5",
+        "contract_ID":"1234"
     },{
         "S.no":"2",
         "name":"Samba",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"2113 2354 5604",
         "Mobile Number":"9153297864",
         "Address":"Kadapa",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"10",
+        "contract_ID":"5678"
     },
     {
         "S.no":"3",
         "name":"Ramesh",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"2012 2344 0674",
         "Mobile Number":"8223297894",
         "Address":"Guntur",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"6",
+        "contract_ID":"1234"
     },
     {
         "S.no":"4",
         "name":"Ram",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"2003 2324 3614",
         "Mobile Number":"8183297894",
         "Address":"Guntur",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"6",
+        "contract_ID":"5678"
     },
     {
         "S.no":"5",
         "name":"Sita",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"6773 2344 4614",
         "Mobile Number":"9123297894",
         "Address":"Krishna",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+       "Contractor Name":"Somu",
+        "acres":"4",
+        "contract_ID":"1234"
     },{
         "S.no":"6",
         "name":"Shyam",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"5678 1023 1234",
         "Mobile Number":"9123297894",
         "Address":"Krishna",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"5",
+        "contract_ID":"1234"
     },{
         "S.no":"7",
         "name":"Sundar",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"2122 2314 1256",
         "Mobile Number":"8768567899",
         "Address":"Visakhapatnam",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"9",
+        "contract_ID":"5678"
     },{
         "S.no":"8",
         "name":"Ravi",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"8913 2123 9087",
         "Mobile Number":"9123297894",
         "Address":"Visakhapatnam",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"7",
+        "contract_ID":"1234"
     },{
         "S.no":"9",
         "name":"Amit",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"5674 2013 2344 ",
         "Mobile Number":"9789491232",
         "Address":"Rajamundry",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"4",
+        "contract_ID":"1234"
     },{
         "S.no":"10",
         "name":"Kishore",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"2344 2112 5674",
         "Mobile Number":"8178942329",
         "Address":"Rajamundry",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"7",
+        "contract_ID":"5678"
     },{
         "S.no":"11",
         "name":"Harish",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"1320 3442 6745",
         "Mobile Number":"7899294123",
         "Address":"Srikakulam",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"9",
+        "contract_ID":"1234"
     },{
         "S.no":"12",
         "name":"Vikram",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"2344 2312 5489",
         "Mobile Number":"9978941232",
         "Address":"Srikakulam",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"5",
+        "contract_ID":"5678"
     },{
         "S.no":"13",
         "name":"Pavan",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"2013 2344 5674",
         "Mobile Number":"9329197840",
         "Address":"Nellore",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"5",
+        "contract_ID":"5678"
     },{
         "S.no":"14",
         "name":"Sunil",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"2134 7344 5674",
         "Mobile Number":"8123097896",
         "Address":"Chittor",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"8",
+        "contract_ID":"5678"
     },{
         "S.no":"15",
         "name":"Devi",
-        "Crop Name":"",
+        "Crop Name":"Potato",
         "Aadhar Number":"6567 9087 4567",
         "Mobile Number":"9603155158",
         "Address":"Kurnool",
-        "Contractor Name":"",
-        "acres":"",
-        "contract_ID":""
+        "Contractor Name":"Somu",
+        "acres":"5",
+        "contract_ID":"1234"
     }
     ]
 }
