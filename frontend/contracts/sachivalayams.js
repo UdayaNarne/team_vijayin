@@ -1,6 +1,11 @@
-function newRegistration() {
-    window.location.href = '../sachivalayam/newRegistration.html';
-}
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('button').addEventListener('click', () => {
+        console.log('clicked');
+        window.location.href = '../sachivalayam/newRegistration.html';
+    });
+});
+
+
 fetch('/frontend/sachivalayam/sachivalayams.json')
     .then(response => response.json())
     .then(data => {

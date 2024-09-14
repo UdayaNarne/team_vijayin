@@ -166,5 +166,4 @@ function openFarmersWindow(farmers) {
     newWindow.document.close();
 }
 
-
 fetchData();
