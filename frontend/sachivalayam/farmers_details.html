@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                    <a class="nav-link" id="home-option" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="home-option" href="./home.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
                 <a href="notifications.html">
@@ -65,7 +65,10 @@
             <p><strong>Contractor Name:</strong> <span id="farmerContractor"></span></p>
             <p><strong>Acres:</strong> <span id="farmerAcres"></span></p>
             <p><strong>Contract ID:</strong> <span id="farmerContractId"></span></p>
-            <button onclick="editFarmer()">Edit</button>
+            <div style="display: flex; gap: 10px;">
+                <button style="border-radius: 5px; border: 1px solid #ccc;" onclick="editFarmer()">Edit</button>
+                <button style="border-radius: 5px; border: 1px solid #ccc;" onclick="deleteFarmer()">Delete</button>
+            </div>
         </div>
     </div>
 
@@ -93,7 +96,7 @@
                 row.setAttribute('onclick', `showFarmerDetails(${index})`);
                 
                 row.innerHTML = `
-                    <td>${farmer["S.no"]}</td>
+                    <td>${farmer["Serial Number"]}</td>
                     <td>${farmer.name}</td>
                     <td>${farmer["Crop Name"]}</td>
                     <td>${farmer["Mobile Number"]}</td>

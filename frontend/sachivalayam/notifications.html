@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Notifications</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const socket = io();
+
+            socket.on('new-contract', (contract) => {
+                const notificationDiv = document.createElement('div');
+                notificationDiv.textContent = `New Contract Created: ID ${contract.contract_ID}`;
+                document.body.appendChild(notificationDiv);
+            });
+        });
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -13,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                <a class="nav-link" id="home-option" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="home-option" href="./home.html">Home <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <a href="notifications.html">
@@ -32,5 +42,12 @@
             </div> 
         </div>
       </nav>
+
+      <div class="container"></div>
+        <h1>Notifications</h1>
+        <ul class="notifications-list">
+            <!-- Contract requests will be dynamically loaded here -->
+        </ul>
+      </div>
 </body>
 </html>
