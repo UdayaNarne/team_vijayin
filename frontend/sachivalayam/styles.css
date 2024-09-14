@@ -24,6 +24,7 @@ a.notification-link {
 /* Style the bell icon to be black */
 .notification-icon svg {
     fill: black; /* Make the bell icon black */
+    margin-right: 5px;
 }
 
 .modal {
