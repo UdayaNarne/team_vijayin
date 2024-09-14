@@ -76,7 +76,7 @@
                 window.location.href = "newRegistration.html";
         }
         // Load the farmer data from farmer.json file
-        fetch('/frontend/farmer.json')
+        fetch('/frontend/contracts/farmer.json')
             .then(response => response.json())
             .then(data => {
                 const farmers = data.farmers;
@@ -108,7 +108,7 @@
 
         // Function to show farmer details in a modal/card
         function showFarmerDetails(index) {
-            fetch('/frontend/farmer.json')
+            fetch('../contracts/farmer.json')
                 .then(response => response.json())
                 .then(data => {
                     const farmer = data.farmers[index];
