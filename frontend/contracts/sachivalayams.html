@@ -48,42 +48,8 @@
             </tbody>
         </table>
     </div>
-    <script>
-        function newRegistration() {
-            window.location.href = '../sachivalayam/newRegistration.html';
-        }
-        fetch('/frontend/sachivalayam/sachivalayams.json')
-            .then(response => response.json())
-            .then(data => {
-                const sachivalayams = data.sachivalayams;
-                displaySachivalayams(sachivalayams);
-            })
-            .catch(error => console.error('Error loading farmer data:', error));
-
-        // Function to display farmers in the table
-        function displaySachivalayams(sachivalayams) {
-            const tableBody = document.querySelector('#sachivalayamtable');
-
-            sachivalayams.forEach((sachivalayam, index) => {
-                let row = document.createElement('tr');
-                
-                // Make the entire row clickable
-                //row.setAttribute('onclick', `showFarmerDetails(${index})`);
-                
-                row.innerHTML = `
-                    <td>${sachivalayam.State}</td>
-                    <td>${sachivalayam.District}</td>
-                    <td>${sachivalayam.Mandal}</td>
-                    <td>${sachivalayam.Village}</td>
-                    <td>${sachivalayam.Pincode}</td>
-                `;
-
-                tableBody.appendChild(row);
-            });
-        }
-    </script>
+      <script src="sachivalayams.js"></script>
       <script src="script.js"></script>
       <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-      
 </body>
 </html>
