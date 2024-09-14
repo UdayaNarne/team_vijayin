@@ -7,6 +7,9 @@
     align-items: center;
     justify-content: center;
 }
+.table-hover{
+    padding:20px;
+}
 header{
     margin:0px !important;
 }
@@ -38,13 +41,10 @@ header{
 .header-container {
     display: flex;
     justify-content: space-between;
-    margin:0;
-}
-.header-container {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     margin:0;
+    padding-left:20px;
+    padding-right: 20px;
 }
 .search-bar{
     width:50%;
