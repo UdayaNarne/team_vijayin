@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const data = require('../frontend/farmer.json');
+const data = require('../frontend/contracts/farmer.json');
 const farmers = data.farmers;
 
 app.use(express.urlencoded({ extended: true }));
