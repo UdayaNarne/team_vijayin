@@ -1,78 +1,78 @@
 {
     "sachivalayams":[
     {
-        "Sachivalayam number":"123445",
         "State":"Andhra Pradesh",
         "District":"Guntur",
         "Mandal":"Narasaraopet",
         "Village":"Rudravaram",
+        "Sachivalayam number":"123445",
         "Pincode":"522508"
     },{
-        "Sachivalayam number":"123456",
         "State":"Andhra Pradesh",
         "District":"Guntur",
         "Mandal":"Nadendla",
         "Village":"Satulur",
+        "Sachivalayam number":"123456",
         "Pincode":"522549"
     },
     {
-        "Sachivalayam number":"923445",
         "State":"Andhra Pradesh",
         "District":"Visakhapatnam",
         "Mandal":"Anandapuram",
         "Village":"Gambheeram",
+        "Sachivalayam number":"923445",
         "Pincode":"530052"
     },
     {
-       "Sachivalayam number":"923585",
         "State":"Andhra Pradesh",
         "District":"Visakhapatnam",
         "Mandal":"Seethamadhara",
         "Village":"Maddilapalem",
+        "Sachivalayam number":"923585",
         "Pincode":"530003"
     },
     {
-        "Sachivalayam number":"813585",
         "State":"Andhra Pradesh",
         "District":"Srikakulam",
         "Mandal":"Etcherla",
         "Village":"Dharmavaram",
+        "Sachivalayam number":"813585",
         "Pincode":"532403"
     },{
-        "Sachivalayam number":"819985",
         "State":"Andhra Pradesh",
         "District":"Srikakulam",
         "Mandal":"Narasannapeta",
         "Village":"Balaseema",
+        "Sachivalayam number":"819985",
         "Pincode":"532425"
         
     },{
-       "Sachivalayam number":"819985",
         "State":"Andhra Pradesh",
         "District":"Kadapa",
         "Mandal":"Vontimitta",
         "Village":"Mangampeta",
+        "Sachivalayam number":"819985",
         "Pincode":"516152"
     },{
-       "Sachivalayam number":"819985",
         "State":"Andhra Pradesh",
         "District":"Kadapa",
         "Mandal":"Jammalamadugu",
         "Village":"Devagudi",
+        "Sachivalayam number":"819985",
         "Pincode":"516434"
     },{
-        "Sachivalayam number":"819985",
         "State":"Andhra Pradesh",
         "District":"Kurnool",
         "Mandal":"Yemmiganur",
         "Village":"Malakapuram",
+        "Sachivalayam number":"819985",
         "Pincode":"518222"
     },{
-        "Sachivalayam number":"819985",
         "State":"Andhra Pradesh",
         "District":"Srikakulam",
         "Mandal":"Adoni",
         "Village":"Yadavalle",
+        "Sachivalayam number":"819985",
         "Pincode":"518301"
     }
         
