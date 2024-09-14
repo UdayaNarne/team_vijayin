@@ -1,7 +1,7 @@
 {
     "farmers":[
     {
-        "S.no":"1",
+        "Serial Number":"1",
         "name":"Vijay",
         "Crop Name":"Potato",
         "Aadhar Number":"2013 2344 5674",
@@ -11,7 +11,7 @@
         "acres":"5",
         "contract_ID":"1234"
     },{
-        "S.no":"2",
+        "Serial Number":"2",
         "name":"Samba",
         "Crop Name":"Potato",
         "Aadhar Number":"2113 2354 5604",
@@ -22,7 +22,7 @@
         "contract_ID":"5678"
     },
     {
-        "S.no":"3",
+        "Serial Number":"3",
         "name":"Ramesh",
         "Crop Name":"Potato",
         "Aadhar Number":"2012 2344 0674",
@@ -33,7 +33,7 @@
         "contract_ID":"1234"
     },
     {
-        "S.no":"4",
+        "Serial Number":"4",
         "name":"Ram",
         "Crop Name":"Potato",
         "Aadhar Number":"2003 2324 3614",
@@ -44,7 +44,7 @@
         "contract_ID":"5678"
     },
     {
-        "S.no":"5",
+        "Serial Number":"5",
         "name":"Sita",
         "Crop Name":"Potato",
         "Aadhar Number":"6773 2344 4614",
@@ -54,7 +54,7 @@
         "acres":"4",
         "contract_ID":"1234"
     },{
-        "S.no":"6",
+        "Serial Number":"6",
         "name":"Shyam",
         "Crop Name":"Potato",
         "Aadhar Number":"5678 1023 1234",
@@ -64,7 +64,7 @@
         "acres":"5",
         "contract_ID":"1234"
     },{
-        "S.no":"7",
+        "Serial Number":"7",
         "name":"Sundar",
         "Crop Name":"Potato",
         "Aadhar Number":"2122 2314 1256",
@@ -74,7 +74,7 @@
         "acres":"9",
         "contract_ID":"5678"
     },{
-        "S.no":"8",
+        "Serial Number":"8",
         "name":"Ravi",
         "Crop Name":"Potato",
         "Aadhar Number":"8913 2123 9087",
@@ -84,7 +84,7 @@
         "acres":"7",
         "contract_ID":"1234"
     },{
-        "S.no":"9",
+        "Serial Number":"9",
         "name":"Amit",
         "Crop Name":"Potato",
         "Aadhar Number":"5674 2013 2344 ",
@@ -94,7 +94,7 @@
         "acres":"4",
         "contract_ID":"1234"
     },{
-        "S.no":"10",
+        "Serial Number":"10",
         "name":"Kishore",
         "Crop Name":"Potato",
         "Aadhar Number":"2344 2112 5674",
@@ -104,7 +104,7 @@
         "acres":"7",
         "contract_ID":"5678"
     },{
-        "S.no":"11",
+        "Serial Number":"11",
         "name":"Harish",
         "Crop Name":"Potato",
         "Aadhar Number":"1320 3442 6745",
@@ -114,7 +114,7 @@
         "acres":"9",
         "contract_ID":"1234"
     },{
-        "S.no":"12",
+        "Serial Number":"12",
         "name":"Vikram",
         "Crop Name":"Potato",
         "Aadhar Number":"2344 2312 5489",
@@ -124,7 +124,7 @@
         "acres":"5",
         "contract_ID":"5678"
     },{
-        "S.no":"13",
+        "Serial Number":"13",
         "name":"Pavan",
         "Crop Name":"Potato",
         "Aadhar Number":"2013 2344 5674",
@@ -134,7 +134,7 @@
         "acres":"5",
         "contract_ID":"5678"
     },{
-        "S.no":"14",
+        "Serial Number":"14",
         "name":"Sunil",
         "Crop Name":"Potato",
         "Aadhar Number":"2134 7344 5674",
@@ -144,7 +144,7 @@
         "acres":"8",
         "contract_ID":"5678"
     },{
-        "S.no":"15",
+        "Serial Number":"15",
         "name":"Devi",
         "Crop Name":"Potato",
         "Aadhar Number":"6567 9087 4567",
