@@ -1,3 +1,58 @@
+.logo-container {
+    width: 50px;
+    height: 50px;
+    margin-right: 1100px;
+    border: white 2px solid;
+    border-radius: 50%; 
+}
+
+.navbar {
+    background-color: #212529;
+    padding: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    height: 65px; /* Adjust based on logo height */
+}
+
+.navbar a {
+    color: white;
+}
+
+.container {
+    padding-top: 80px; /* Adjust based on navbar height */
+}
+
+.header-container .btn {
+    margin-left: auto;
+}
+
+.notification-icon svg,
+.translation-icon svg,
+.profile-icon svg {
+    fill: white;
+    transition: transform 0.3s ease, fill 0.3s ease;
+    margin-right: 25px;
+}
+
+.profile-icon svg {
+    margin-right: 0;
+    margin-left: 0px;
+}
+
+.notification-icon svg{
+    margin-right: 10px !important;
+}
+
+.notification-icon svg:hover,
+.translation-icon svg:hover,
+.profile-icon svg:hover {
+    transform: scale(1.2);
+    fill: #d1d1d1;
+}
+
+.profile-icon {
+    margin-left: 20px;  /* Adjust as needed */
+}
+
 .p-3,.text-bg-dark{
     background-color:whitesmoke !important;
     margin:0;
@@ -13,11 +68,7 @@
 header{
     margin:0px !important;
 }
-.logo-container{
-    width: 50px; 
-    height: 50px; 
-    margin-right: 20px;
-}
+
 .new-cont{
     background-color: green !important;
     color:white;
@@ -27,12 +78,7 @@ header{
     border-radius:10px;
     /* margin-left:30px !important; */
 }
-.custom-navbar{
-    display:flex;
-    height:100vh;
-    width:100px;
-    background-color:rgb(167, 193, 66);
-}
+
 .container,.mt-5,.d-flex,.justify-content-end{
     /* width:100%; */
     padding:0px;
@@ -58,7 +104,7 @@ header{
 }
 .content-area {
     flex: 1;
-    /* padding: 20px; */
+    padding-top: 50px;
 }
 .grid {
     display: grid;
