@@ -32,6 +32,34 @@ function displaySachivalayams(sachivalayams) {
     });
 }
 
+function detailedView(sachivalayam) {
+    const modal = document.createElement('div');
+    modal.classList.add('modal');
+    modal.innerHTML = `
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Sachivalayam Details</h2>
+            <p><strong>State:</strong> ${sachivalayam.State}</p>
+            <p><strong>District:</strong> ${sachivalayam.District}</p>
+            <p><strong>Mandal:</strong> ${sachivalayam.Mandal}</p>
+            <p><strong>Village:</strong> ${sachivalayam.Village}</p>
+            <p><strong>Pincode:</strong> ${sachivalayam.Pincode}</p>
+        </div>
+    `;
+    document.body.appendChild(modal);
+
+    const closeButton = modal.querySelector('.close-button');
+    closeButton.addEventListener('click', () => {
+        modal.remove();
+    });
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.remove();
+        }
+    });
+}
+
 async function fetchData() {
     try {
         const districtName = document.querySelector('.search-bar').value.trim();

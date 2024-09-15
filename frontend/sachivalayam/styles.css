@@ -1,7 +1,20 @@
 .logo-container {
-    width: 50px;  /* Adjust as needed */
-    height: 50px;  /* Adjust as needed */
-    margin-right: 20px;  /* Adjust as needed */
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border: white 2px solid;
+    border-radius: 50%; 
+}
+
+.navbar {
+    background-color: #212529;
+    padding: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    height: 65px; /* Adjust based on logo height */
+}
+
+.navbar a {
+    color: white;
 }
 
 .container {
@@ -17,14 +30,88 @@
     margin-left: 20px;  /* Adjust as needed */
 }
 
-a.notification-link {
-    text-decoration: none;  /* Remove underline */
+.notification-icon svg,
+.profile-icon svg {
+    fill: white;
+    transition: transform 0.3s ease, fill 0.3s ease;
 }
 
-/* Style the bell icon to be black */
-.notification-icon svg {
-    fill: black; /* Make the bell icon black */
-    margin-right: 5px;
+.notification-icon svg:hover,
+.profile-icon svg:hover {
+    transform: scale(1.2);
+    fill: #d1d1d1;
+}
+
+.translation-icon svg,
+.profile-icon svg {
+    fill: white;
+    transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.translation-icon svg:hover,
+.profile-icon svg:hover {
+    transform: scale(1.2);
+    fill: #d1d1d1;
+}
+
+/* Home page contents */
+.sachivalayam-home-contents {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sachivalayam-home-contents h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0b6b53;
+}
+
+.sachivalayam-home-contents p {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Button styling */
+.btn-lg {
+    padding: 15px;
+    font-size: 1.25rem;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.btn-lg:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Button colors */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+/* Adjusting layout for smaller screens */
+@media (max-width: 768px) {
+    .sachivalayam-home-contents {
+        margin-top: 120px;
+    }
+
+    .btn-lg {
+        width: 100%;
+    }
 }
 
 .modal {
@@ -124,6 +211,7 @@ a.notification-link {
     margin-bottom: 12px;
     justify-content: space-between;
 }
+
 .notification-item-header h3 {
     margin: 10px;
     padding:10px;
@@ -134,3 +222,9 @@ a.notification-link {
     margin: 0;
     color: #888;
 }
+
+.notifications{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
