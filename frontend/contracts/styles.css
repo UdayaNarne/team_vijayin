@@ -24,9 +24,6 @@
 .header-container .btn {
     margin-left: auto;
 }
-
-.notification-icon svg,
-.translation-icon svg,
 .profile-icon svg {
     fill: white;
     transition: transform 0.3s ease, fill 0.3s ease;
