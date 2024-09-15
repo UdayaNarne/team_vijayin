@@ -24,9 +24,6 @@
 .header-container .btn {
     margin-left: auto;
 }
-
-.notification-icon svg,
-.translation-icon svg,
 .profile-icon svg {
     fill: white;
     transition: transform 0.3s ease, fill 0.3s ease;
@@ -133,7 +130,7 @@ header{
     margin-left:100px;
     margin-right:200px;
     margin-top:50px;
-    background-color:#c0f06e;
+    /* background-color:#c0f06e; */
 }
 
 .contract-info {
