@@ -21,6 +21,9 @@ function displaySachivalayams(sachivalayams) {
             <td>${sachivalayam.Pincode}</td>
             <td>${sachivalayam.Crop}</td>
         `;
+        
+        // Add event listener to each row for the detailed view
+        row.addEventListener('click', () => detailedView(sachivalayam));
 
         tableBody.appendChild(row);
     });
@@ -38,6 +41,9 @@ function detailedView(sachivalayam) {
             <p><strong>Mandal:</strong> ${sachivalayam.Mandal}</p>
             <p><strong>Village:</strong> ${sachivalayam.Village}</p>
             <p><strong>Pincode:</strong> ${sachivalayam.Pincode}</p>
+            <div style="text-align: center;">
+                <button class="btn btn-primary new-cont" style="display: inline-block; padding: 10px 20px;">Send Request</button>
+            </div>
         </div>
     `;
     document.body.appendChild(modal);
@@ -57,7 +63,7 @@ function detailedView(sachivalayam) {
 async function fetchData() {
     try {
         // Get the search term from the input field
-        const searchTerm = document.querySelector('.search-bar').value.trim();
+        const searchTerm = document.querySelector('.search-bar').value.trim().toLowerCase();
 
         if (!searchTerm) {
             alert('Please enter a district or crop name.');
