@@ -96,3 +96,38 @@ header{
     justify-content: space-between;
 }
 
+
+.notifications-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.notification-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin:100px;
+}
+
+.notification-item-header {
+    display:flex;
+    margin-right:20px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+.notification-item-header h3 {
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+}
+
+.notification-item-header p {
+    margin: 0;
+    color: #888;
+}
+

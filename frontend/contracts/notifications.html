@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <img class="logo-container" src="../sachivalayam/logo.jpg" alt="logo">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="ml-auto d-flex align-items-center">
+                <div class="profile-icon ml-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+      <div class="container"></div>
+        <h1>Notifications</h1>
+        <ul style="list-style: none;" class="notifications-list">
+        </ul>
+      </div>
+      <script>
+        async function loadNotifications() {
+            try {
+                const response = await fetch('http://localhost:3000/notifications');
+                if (!response.ok) throw new Error('Failed to fetch notifications');
+
+                const notifications = await response.json();
+
+                const notificationsList = document.querySelector('.notifications-list');
+                notificationsList.innerHTML = ''; // Clear existing notifications
+
+                if (notifications.length === 0) {
+                    notificationsList.innerHTML = '<li>No notifications available.</li>';
+                    return;
+                }
+
+                notifications.forEach(notification => {
+                    const notificationItem = document.createElement('li');
+                    notificationItem.classList.add('notification-item');
+                    notificationItem.dataset.contractId = notification.id; // Store the contract ID in the data attribute
+                    notificationItem.innerHTML = `
+                        <div class="notification-item-header">
+                            <div>
+                                <h6>Willing to connect to Farmers of ${notification.Address}</h6>
+                            </div>
+                            <div style="margin-left:20px">
+                                <select class="status-dropdown">
+                                    <option value="accepted">Accepted</option>
+                                    <option value="pending">Pending</option>
+                                </select>
+                            </div>
+                        </div>
+                    `;
+                    notificationItem.addEventListener('click', () => showContractDetails(notification.id)); // Add click event listener
+                    notificationsList.appendChild(notificationItem);
+                });
+            } catch (error) {
+                console.error('Error:', error.message);
+            }
+        }
+        document.addEventListener('DOMContentLoaded', loadNotifications);
+      </script>
+</body>
+</html>
