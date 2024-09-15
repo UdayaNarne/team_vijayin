@@ -31,15 +31,22 @@ app.get('/contracts/:id', (req, res) => {
     if (items.length === 0) return res.status(404).send('Items not found');
     res.json(items);
 });
-
-app.get('/districts/:name',(req,res)=>{
-    const district=req.params.name;
-    if(!district) return res.status(400).send('District name is required');
-    const items=sachivalayams.filter(i=>i.District===district);
-    if(items.length===0) return res.status(404).send('Items not found');
-    res.json(items);
-
+app.get('/search/:name', (req, res) => {
+    const term = req.params.name;
+    if (!term) {
+        return res.status(400).json({ message: 'Search term is required' });
+    }
+    const searchTerm = term.toLowerCase();
+    if (!data || !Array.isArray(sachivalayams)) {
+        return res.status(500).json({ message: 'Sachivalayam data is not available' });
+    }
+    const filteredSachivalayams = sachivalayams.filter(sachivalayam => 
+        sachivalayam.District.toLowerCase().includes(searchTerm) ||
+        sachivalayam.Crop.toLowerCase().includes(searchTerm)
+    );
+    res.json(filteredSachivalayams);
 });
+
 
 app.get('/notifications',(req,res)=>{
     res.json(notifies);
