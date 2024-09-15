@@ -6,14 +6,16 @@
         "Mandal":"Narasaraopet",
         "Village":"Rudravaram",
         "Sachivalayam number":"123445",
-        "Pincode":"522508"
+        "Pincode":"522508",
+        "Crop":"Mirchi"
     },{
         "State":"Andhra Pradesh",
         "District":"Guntur",
         "Mandal":"Nadendla",
         "Village":"Satulur",
         "Sachivalayam number":"123456",
-        "Pincode":"522549"
+        "Pincode":"522549",
+        "Crop":"Mirchi"
     },
     {
         "State":"Andhra Pradesh",
@@ -21,7 +23,8 @@
         "Mandal":"Anandapuram",
         "Village":"Gambheeram",
         "Sachivalayam number":"923445",
-        "Pincode":"530052"
+        "Pincode":"530052",
+        "Crop":"Maize"
     },
     {
         "State":"Andhra Pradesh",
@@ -29,7 +32,8 @@
         "Mandal":"Seethamadhara",
         "Village":"Maddilapalem",
         "Sachivalayam number":"923585",
-        "Pincode":"530003"
+        "Pincode":"530003",
+         "Crop":"Maize"
     },
     {
         "State":"Andhra Pradesh",
@@ -37,14 +41,16 @@
         "Mandal":"Etcherla",
         "Village":"Dharmavaram",
         "Sachivalayam number":"813585",
-        "Pincode":"532403"
+        "Pincode":"532403",
+        "Crop":"Paddy"
     },{
         "State":"Andhra Pradesh",
         "District":"Srikakulam",
         "Mandal":"Narasannapeta",
         "Village":"Balaseema",
         "Sachivalayam number":"819985",
-        "Pincode":"532425"
+        "Pincode":"532425",
+        "Crop":"Paddy"
         
     },{
         "State":"Andhra Pradesh",
@@ -52,28 +58,32 @@
         "Mandal":"Vontimitta",
         "Village":"Mangampeta",
         "Sachivalayam number":"819985",
-        "Pincode":"516152"
+        "Pincode":"516152",
+        "Crop":"Ragi"
     },{
         "State":"Andhra Pradesh",
         "District":"Kadapa",
         "Mandal":"Jammalamadugu",
         "Village":"Devagudi",
         "Sachivalayam number":"819985",
-        "Pincode":"516434"
+        "Pincode":"516434",
+        "Crop":"Ragi"
     },{
         "State":"Andhra Pradesh",
         "District":"Kurnool",
         "Mandal":"Yemmiganur",
         "Village":"Malakapuram",
         "Sachivalayam number":"819985",
-        "Pincode":"518222"
+        "Pincode":"518222",
+        "Crop":"Groundnut"
     },{
         "State":"Andhra Pradesh",
         "District":"Kurnool",
         "Mandal":"Adoni",
         "Village":"Yadavalle",
         "Sachivalayam number":"819985",
-        "Pincode":"518301"
+        "Pincode":"518301",
+        "Crop":"Groundnut"
     }
         
     ]
