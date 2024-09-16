@@ -16,7 +16,7 @@ app.use(cors());
 
 // Endpoint to get all contracts (return unique contract IDs)
 
-
+//Displays available contract IDS
 app.get('/contracts', (req, res) => {
     const uniqueContractIds = new Set(farmers.map(farmer => farmer.contract_ID));
     const contracts = Array.from(uniqueContractIds).map(id => ({ contract_ID: id }));
