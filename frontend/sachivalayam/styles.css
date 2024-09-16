@@ -5,6 +5,18 @@
     overflow: hidden; /* Ensure content doesn't overflow */
 }
 
+.table {
+    background-color: #ffffff;
+}
+
+.farmers-dashboard{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    opacity: 0.9; /* Slightly make the background image opaque */
+}
 .page-background::before {
     content: "";
     position: absolute;
