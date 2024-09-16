@@ -41,7 +41,7 @@
 
 .notification-icon svg:hover,
 .translation-icon svg:hover,
-.profile-icon svg:hover {
+.profile-icon svg:hover{
     transform: scale(1.2);
     fill: #d1d1d1;
 }
@@ -171,7 +171,7 @@ header{
 
 .notification-item-header p {
     margin: 0;
-    color: #888;
+    color: #121212;
 }
 
 .modal {
