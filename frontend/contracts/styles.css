@@ -1,21 +1,19 @@
 .logo-container {
     width: 50px;
     height: 50px;
-    margin-right: 1100px;
+    margin-right: 15px;
     border: white 2px solid;
     border-radius: 50%; 
 }
 
 .navbar {
+    display:flex;
     background-color: #212529;
     padding: 15px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
     height: 65px; /* Adjust based on logo height */
 }
 
-.navbar a {
-    color: white;
-}
 
 .container {
     padding-top: 80px; /* Adjust based on navbar height */
@@ -105,8 +103,9 @@ header{
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(1, 0.8fr);
+    grid-template-columns: repeat(1, 0.75fr);
     gap: 10px;
+    margin-left: 3%;
 }
 .contract-card {
     border: 1px solid #0b0b0b;
@@ -149,7 +148,6 @@ header{
 .contract-info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 
