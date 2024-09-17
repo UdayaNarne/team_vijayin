@@ -9,6 +9,9 @@ document.getElementById("hindi").addEventListener("click",function(){
 document.getElementById("telugu").addEventListener("click",function(){
     window.location.href = "home_telugu.html";
 })
+document.getElementById("english").addEventListener("click",function(){
+    window.location.href = "home.html";
+})
 document.getElementById("acceptContract").addEventListener("click",function(){
     
 })
