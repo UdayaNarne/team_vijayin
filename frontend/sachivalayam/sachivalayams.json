@@ -7,7 +7,8 @@
         "Village":"Rudravaram",
         "Sachivalayam number":"123445",
         "Pincode":"522508",
-        "Crop":"Mirchi"
+        "Crop":"Mirchi",
+        "Total acres":"40"
     },{
         "State":"Andhra Pradesh",
         "District":"Guntur",
@@ -15,7 +16,8 @@
         "Village":"Satulur",
         "Sachivalayam number":"123456",
         "Pincode":"522549",
-        "Crop":"Mirchi"
+        "Crop":"Mirchi",
+        "Total acres":"52"
     },
     {
         "State":"Andhra Pradesh",
@@ -24,7 +26,8 @@
         "Village":"Gambheeram",
         "Sachivalayam number":"923445",
         "Pincode":"530052",
-        "Crop":"Maize"
+        "Crop":"Maize",
+        "Total acres":"48"
     },
     {
         "State":"Andhra Pradesh",
@@ -33,7 +36,8 @@
         "Village":"Maddilapalem",
         "Sachivalayam number":"923585",
         "Pincode":"530003",
-         "Crop":"Maize"
+         "Crop":"Maize",
+         "Total acres":"41"
     },
     {
         "State":"Andhra Pradesh",
@@ -42,7 +46,8 @@
         "Village":"Dharmavaram",
         "Sachivalayam number":"813585",
         "Pincode":"532403",
-        "Crop":"Paddy"
+        "Crop":"Paddy",
+        "Total acres":"50"
     },{
         "State":"Andhra Pradesh",
         "District":"Srikakulam",
@@ -50,7 +55,8 @@
         "Village":"Balaseema",
         "Sachivalayam number":"819985",
         "Pincode":"532425",
-        "Crop":"Paddy"
+        "Crop":"Paddy",
+        "Total acres":"53"
         
     },{
         "State":"Andhra Pradesh",
@@ -59,7 +65,8 @@
         "Village":"Mangampeta",
         "Sachivalayam number":"819985",
         "Pincode":"516152",
-        "Crop":"Ragi"
+        "Crop":"Ragi",
+        "Total acres":"57"
     },{
         "State":"Andhra Pradesh",
         "District":"Kadapa",
@@ -67,7 +74,8 @@
         "Village":"Devagudi",
         "Sachivalayam number":"819985",
         "Pincode":"516434",
-        "Crop":"Ragi"
+        "Crop":"Ragi",
+        "Total acres":"45"
     },{
         "State":"Andhra Pradesh",
         "District":"Kurnool",
@@ -75,7 +83,8 @@
         "Village":"Malakapuram",
         "Sachivalayam number":"819985",
         "Pincode":"518222",
-        "Crop":"Groundnut"
+        "Crop":"Groundnut",
+        "Total acres":"51"
     },{
         "State":"Andhra Pradesh",
         "District":"Kurnool",
@@ -83,8 +92,8 @@
         "Village":"Yadavalle",
         "Sachivalayam number":"819985",
         "Pincode":"518301",
-        "Crop":"Groundnut"
-    }
-        
+        "Crop":"Groundnut",
+        "Total acres":"47"
+    }       
     ]
 }

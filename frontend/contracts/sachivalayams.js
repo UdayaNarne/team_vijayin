@@ -18,8 +18,8 @@ function displaySachivalayams(sachivalayams) {
             <td>${sachivalayam.District}</td>
             <td>${sachivalayam.Mandal}</td>
             <td>${sachivalayam.Village}</td>
-            <td>${sachivalayam.Pincode}</td>
             <td>${sachivalayam.Crop}</td>
+            <td>${sachivalayam["Total acres"]}</td>
         `;
         
         // Add event listener to each row for the detailed view
@@ -41,6 +41,8 @@ function detailedView(sachivalayam) {
             <p><strong>Mandal:</strong> ${sachivalayam.Mandal}</p>
             <p><strong>Village:</strong> ${sachivalayam.Village}</p>
             <p><strong>Pincode:</strong> ${sachivalayam.Pincode}</p>
+            <p><strong>Crop:</strong> ${sachivalayam.Crop}</p>
+            <p><strong>Available Acres:</strong> ${sachivalayam["Total acres"]}</p>
             <div style="text-align: center;">
                 <button class="btn btn-primary new-cont" style="display: inline-block; padding: 10px 20px;">Send Request</button>
             </div>
