@@ -33,10 +33,18 @@ function displayContracts(contracts) {
         `;
 
         card.innerHTML = `
-            <div class="contract-info">
-                <div>Contract ID: ${contract.contract_ID}</div>
+            <style>
+            #view-contract {
+            background-color: green;
+            }
+            </style>
+            <div class="contract-info" style="padding-left:3%">
+                <div style="padding-right:15%">Contract ID: ${contract.contract_ID}</div>
+                <div  style="padding-right:28%">Crop Name: ${contract["Crop Name"]}</div>
                 ${svg}
             </div>
+            
+            <button type="button" class="btn btn-primary btn-sm" id="view-contract" style="margin-top:3%;margin-left:45%">View Contract</button>
         `;
         const svgElement = card.querySelector('svg');
         svgElement.setAttribute('data-contract-id', contract.contract_ID);

@@ -104,11 +104,16 @@
         .container-fluid {
             margin-left:50%;
         }
+        #view-contract {
+            background-color: rgba(43, 185, 0, 0.822);
+            margin: 3%;
+            margin-left: 15%;
+        }
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body class="page-background">
-    <!-- <nav style="margin-bottom:100px" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav style="margin-bottom:100px" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a href="com_login.html">
                 <img style="width:50px;height:50px" class="logo-container" src="logo.jpg" alt="logo">
@@ -141,8 +146,9 @@
                 </div>
             </div>
         </div>
-    </nav> -->
-    <div style="margin-left:28%;" class="container-fluid mt-2" id="farmers-container"></div>
+    </nav>
+    <h1 style="padding-top: 6%; text-align: center;">Contract Details</h1>
+    <div style="margin-left:30.5%; " class="container-fluid mt-2" id="farmers-container"></div>
     <div id="farmerModal" class="modal">
         <div class="card modal-content">
             <span class="close" onclick="closeModal()">x</span>
@@ -197,6 +203,7 @@
                         <div class="farmer-info">
                             <div>Farmer ID: ${farmer["Aadhar Number"]}</div>
                             <div>Name: ${farmer.name}</div>
+                            <button type="button" class="btn btn-primary btn-sm" id="view-contract">View Contract</button>
                         </div>
                     `;
                     farmerCard.onclick = () => showFarmerDetails(index);
