@@ -33,6 +33,11 @@ function detailedView(sachivalayam) {
     const modal = document.createElement('div');
     modal.classList.add('modal');
     modal.innerHTML = `
+        <style>
+            .btn.new-cont:hover { /* Darker blue on hover */
+                transform: scale(1.05); /* Slight scaling effect */
+            }
+        </style>
         <div class="modal-content">
             <span class="close-button">&times;</span>
             <h2>Sachivalayam Details</h2>
@@ -44,8 +49,10 @@ function detailedView(sachivalayam) {
             <p><strong>Crop:</strong> ${sachivalayam.Crop}</p>
             <p><strong>Available Acres:</strong> ${sachivalayam["Total acres"]}</p>
             <div style="text-align: center;">
-                <button class="btn btn-primary new-cont" style="display: inline-block; padding: 10px 20px;">Send Request</button>
-            </div>
+            <button class="btn btn-primary new-cont" style="display: inline-block; padding: 10px 20px; transition: background-color 0.3s ease, transform 0.2s ease;">
+                Send Request
+            </button>
+
         </div>
     `;
     document.body.appendChild(modal);
