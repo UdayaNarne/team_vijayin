@@ -13,17 +13,17 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'backend')));
 const cors = require('cors');
 app.use(cors());
-
-// Endpoint to get all contracts (return unique contract IDs)
-
-//Displays available contract IDS
 app.get('/contracts', (req, res) => {
-    const uniqueContractIds = new Set(farmers.map(farmer => farmer.contract_ID));
+    const contractorName = "Somu"; 
+    const uniqueContractIds = new Set(
+        farmers
+            .filter(farmer => farmer["Contractor Name"] === contractorName)
+            .map(farmer => farmer.contract_ID)
+    );
     const contracts = Array.from(uniqueContractIds).map(id => ({ contract_ID: id }));
     res.json(contracts);
 });
 
-// Endpoint to get farmers for a specific contract
 app.get('/contracts/:id', (req, res) => {
     const contractId = req.params.id;
     if (!contractId) return res.status(400).send('Contract ID is required');
