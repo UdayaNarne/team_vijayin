@@ -14,15 +14,15 @@ app.use(express.static(path.join(__dirname, 'backend')));
 const cors = require('cors');
 app.use(cors());
 app.get('/contracts', (req, res) => {
-    const contractorName = "Somu"; 
-    const uniqueContractIds = new Set(
-        farmers
-            .filter(farmer => farmer["Contractor Name"] === contractorName)
-            .map(farmer => farmer.contract_ID)
-    );
-    const contracts = Array.from(uniqueContractIds).map(id => ({ contract_ID: id }));
-    res.json(contracts);
+    const contractorName = "Somu";
+    const contracts = farmers
+        .filter(farmer => farmer["Contractor Name"] === contractorName)
+        .map(farmer => ({ contract_ID: farmer.contract_ID, crop_name: farmer["Crop Name"]}));
+    const uniqueContracts = Array.from(new Set(contracts.map(JSON.stringify))).map(JSON.parse);
+
+    res.json(uniqueContracts);
 });
+
 
 app.get('/contracts/:id', (req, res) => {
     const contractId = req.params.id;
