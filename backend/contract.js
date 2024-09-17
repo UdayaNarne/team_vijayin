@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const data = require('../frontend/contracts/farmer.json');
+const data = require('../frontend/farmer.json');
 const data2=require("../frontend/sachivalayam/sachivalayams.json")
 const data3=require("../frontend/notifications.json")
 const farmers = data.farmers;
