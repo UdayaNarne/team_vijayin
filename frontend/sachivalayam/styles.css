@@ -1,7 +1,7 @@
 .page-background {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden; /* Ensure content doesn't overflow */
 }
 
@@ -24,12 +24,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(homebg.jpg);
+    background-image:url(homebg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.8; /* Adjust the opacity as needed */
-    z-index: -1; /* Ensure the pseudo-element is behind the content */
+    opacity: 0.8;
+    z-index: -1;
 }
 
 .logo-container {
@@ -52,6 +52,7 @@
 }
 
 .container {
+    margin-bottom:100px;
     padding-top: 80px; /* Adjust based on navbar height */
 }
 
