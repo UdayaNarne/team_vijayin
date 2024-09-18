@@ -17,11 +17,32 @@ app.get('/contracts', (req, res) => {
     const contractorName = "Somu";
     const contracts = farmers
         .filter(farmer => farmer["Contractor Name"] === contractorName)
-        .map(farmer => ({ contract_ID: farmer.contract_ID, crop_name: farmer["Crop Name"]}));
-    const uniqueContracts = Array.from(new Set(contracts.map(JSON.stringify))).map(JSON.parse);
+        .map(farmer => ({
+            contract_ID: farmer.contract_ID,
+            crop_name: farmer["Crop Name"],
+            duration:"6 months",
+            acres: parseInt(farmer.acres, 10)
+        }));
+    
+    const contractGroups = contracts.reduce((acc, contract) => {
+        const key = contract.contract_ID;
+        if (!acc[key]) {
+            acc[key] = {
+                contract_ID: contract.contract_ID,
+                crop_name: contract.crop_name,
+                duration: contract.duration,
+                total_acres: 0
+            };
+        }
+        acc[key].total_acres += contract.acres;
+        return acc;
+    }, {});
 
-    res.json(uniqueContracts);
+    const uniqueContracts = Object.values(contractGroups);
+    const totalAcres = uniqueContracts.reduce((sum, contract) => sum + contract.total_acres, 0);
+    res.status(200).json(uniqueContracts); // Ensure status is set to 200
 });
+
 
 
 app.get('/contracts/:id', (req, res) => {
