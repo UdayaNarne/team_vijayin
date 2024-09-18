@@ -97,7 +97,8 @@ header{
     margin-top:50px;
     margin-left:25vw;
     height:50px;
-    border:1px solid black
+    border:1px solid black;
+    border-radius:8px;
 }
 .content-area {
     flex: 1;
